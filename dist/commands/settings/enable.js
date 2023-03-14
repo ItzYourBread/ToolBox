@@ -17,7 +17,6 @@ exports.default = {
     execute: function (client, interaction) {
         return tslib_1.__awaiter(this, void 0, void 0, function () {
             return tslib_1.__generator(this, function (_a) {
-                console.log("100");
                 return [2];
             });
         });

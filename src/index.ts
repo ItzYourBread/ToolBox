@@ -1,5 +1,5 @@
 import { Client } from 'eris';
-import { listener, command } from './utils/index';
+import { listener, command, database } from './utils/index';
 import figlet from 'figlet';
 import chalk from 'chalk';
 import 'dotenv/config';
@@ -28,7 +28,7 @@ const client = new Client(process.env.TOKEN, {
     intents: ['guilds', 'guildMessages', 'guildMembers', 'guildEmojis', "guildMessageTyping"],
 });
 
-// database.connect();
+database.connect();
 
 listener.ready(client);
 listener.error(client);

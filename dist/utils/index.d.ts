@@ -1,3 +1,4 @@
 import listener from './listeners';
 import command from './commands';
-export { listener, command };
+import database from './database';
+export { listener, command, database };
