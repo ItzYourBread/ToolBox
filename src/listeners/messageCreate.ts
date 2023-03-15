@@ -1,5 +1,5 @@
 import { Client, Message } from "eris";
-import chalk from "chalk"
+import chalk from "chalk";
 import "dotenv/config";
 
 export function messageCreate(client: Client) {
