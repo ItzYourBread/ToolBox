@@ -8,9 +8,10 @@ function messageCreate(client) {
     var _this = this;
     client.on('messageCreate', function (msg) { return tslib_1.__awaiter(_this, void 0, void 0, function () {
         return tslib_1.__generator(this, function (_a) {
-            console.log(chalk_1.default.cyanBright('[Listener] messageCreate is loaded'));
+            console.log("Done");
             return [2];
         });
     }); });
+    console.log(chalk_1.default.cyanBright('[Listener] messageCreate is loaded'));
 }
 exports.messageCreate = messageCreate;

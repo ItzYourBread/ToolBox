@@ -8,7 +8,7 @@ import "./server"
 console.clear();
 console.log(
     chalk.greenBright(
-        figlet.textSync('Bread.', { horizontalLayout: 'full' })
+        figlet.textSync('ToolBox.', { horizontalLayout: 'full' })
     )
 );
 
