@@ -8,7 +8,7 @@ var chalk_1 = tslib_1.__importDefault(require("chalk"));
 require("dotenv/config");
 require("./server");
 console.clear();
-console.log(chalk_1.default.greenBright(figlet_1.default.textSync('Bread.', { horizontalLayout: 'full' })));
+console.log(chalk_1.default.greenBright(figlet_1.default.textSync('ToolBox.', { horizontalLayout: 'full' })));
 var client = new eris_1.Client(process.env.TOKEN, {
     restMode: true,
     autoreconnect: true,
